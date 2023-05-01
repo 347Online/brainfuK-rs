@@ -7,10 +7,6 @@ You can execute a Brainfuck source file by passing the path as the first argumen
 ```bash
 brainfuck hello.bf
 ```
-Output:
-```
-Hello, World!
-```
 
 You can also execute a Brainfuck script directly with the `-e` flag, e.g.
 ```bash
