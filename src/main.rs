@@ -11,7 +11,7 @@ use clap::{Parser, ArgGroup};
         .required(false)
         .args(&["script", "filename"]),
 ))]
-/// A Brainfuck Interpreter, written in Rust
+/// Another Brainfuck Interpreter, written in Rust
 struct Arguments {
     /// Path to a Brainfuck source file
     filename: Option<PathBuf>,
